@@ -1,0 +1,230 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	margin:0 auto;
+}
+
+
+[class*="col-"]{
+	float:left;
+	padding:15px;
+}
+/*for mobile*/
+[class*="col-"]{
+	width:100%;
+}
+/*heading-part design start*/
+.heading-div {
+	background-image: url("pic/shawnanggg-nmpW_WwwVSc-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align:center;
+	height:700px;
+	
+	position:relative;
+}
+.nav-menu{
+	margin-bottom:30px;
+
+	
+	
+
+}
+.nav-menu a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	margin:5px;
+	color:white;
+	padding: 5px;
+	background-color:black;
+	
+	
+	border-radius:10px;
+	
+}
+.nav-menu a:hover{
+	text-decoration:underline;
+	background-color:gray;
+	
+	
+	
+}
+.heading-title{
+	
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.heading-title h1 {
+	color: tomato;
+	background-color: black;
+	
+	margin-bottom:40px;
+	font-size:2.5rem;
+	
+	display:block;
+	border-radius:5px;
+	
+}
+.heading-title h1:hover{
+	color:white;
+}
+.heading-title button{
+	border:none;
+	border-radius:5px;
+	padding:15px;
+
+	
+}
+.heading-title a{
+	text-decoration:none;
+	color:black;
+	font-size:1rem;
+}
+.heading-title button:hover{
+	background-color:gray;
+
+}
+.heading-div::after{
+	content:'';
+	clear:both;
+	display:table;
+}
+/*heading-part design ends*/
+
+/*Text-section design part starts*/
+.text-section{
+	margin-top:20px;
+	text-align:center;
+	margin-bottom:20px;
+	
+}
+.text-section p{
+	text-align:center;
+	margin-left:60px;
+	margin-right:60px;
+	font-family: 'Oswald', sans-serif;
+	
+	
+}
+.food-title{
+	text-align:center;
+	background-color:black;
+	color:white;
+	font-size:2rem;
+}
+#p2{
+	color:tomato;
+}
+
+
+
+.text-section::after{
+	content:'';
+	clear:both;
+	display:table;
+}
+
+/*text-section ends here*/
+
+/*food image design starts from here*/
+.menu-section{
+	padding:1%;
+	
+}
+.card{
+	
+	
+	
+}
+	
+.card:hover{
+	box-shadow:5px 6px 10px 2px black;
+
+}
+
+.card-body{
+	text-align:center;
+
+	
+	
+}
+.card-body img {
+	max-width:100%;
+	display: block;
+	
+}
+.card-desc{
+	background-color:rgb(165,164,164);
+	
+}
+.first-item{
+	color:tomato;
+	background-color:black;
+	padding:10px;
+	font-size:1.5rem;
+	font-weight:bolder;
+	text-align:center;
+
+}
+.card-desc > p{
+	font-size:1.2rem;
+	padding:5px;
+	text-align:center;
+	
+}
+
+
+
+.row::after{
+	content:'';
+	clear:both;
+	display:table;
+}
+/*food image design ends from here*/
+
+
+/*booking section design starts from here*/
+
+.booking-div{
+	margin:20px;
+	
+}
+.booking-title{
+	
+	margin:20px auto;
+}
+.booking-title h1{
+	font-size:2rem;
+	margin-bottom:10px;
+	text-align:center;
+	
+}
+.booking-title p{
+	font-size:1.1rem;
+	text-align:center;
+}
+
+.booking-form{
+	
+	
+}
+.booking-form input{
+	width:100%;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.btn2{
+	padding:10px;
+	background-color:gray;
+	color:white;
+	border-radius:10px;
+}
+
+/*booking design ends from here*/
